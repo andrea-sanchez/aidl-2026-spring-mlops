@@ -7,11 +7,11 @@ There are two options to prepare the python environment. We recommend conda, if 
 ### With Conda
 Create a conda environment by running
 ```
-conda create --name aidl python=3.10
+conda create --name aidl-session1 python=3.10
 ```
 Then, activate the environment
 ```
-conda activate aidl
+conda activate aidl-session1
 ```
 and install the dependencies
 ```
@@ -20,12 +20,12 @@ pip install -r requirements.txt
 ### With virtualenv
 Create a virtual environment by running
 ```
-python -m venv aidl
+python -m venv aidl-session1
 ```
 Then, activate the environment
 ```
-source aidl/bin/activate        # Linux/Mac
-aidl\Scripts\activate.bat       # Windows
+source aidl-session1/bin/activate        # Linux/Mac
+aidl-session1\Scripts\activate.bat       # Windows
 ```
 and install the dependencies
 ```
